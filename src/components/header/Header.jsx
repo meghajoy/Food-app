@@ -1,5 +1,6 @@
 import React from 'react'
 import {Box, styled, Typography} from '@mui/material'
+import CustomButton from '../custom button/CustomButton'
 
 export default function Header() {
     //JSON format to map
@@ -63,7 +64,12 @@ export default function Header() {
             <NavBarLink variant='body2'>                            {/*li*/}
                  Sign Up                         
             </NavBarLink>
-            <CustomButton/>
+            <CustomButton
+                backgroundColor="red"
+                color= "white"
+                buttonText="Register"
+            />
+            
         </Box>
       </Box>
   )
